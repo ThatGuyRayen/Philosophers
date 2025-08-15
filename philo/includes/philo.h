@@ -61,12 +61,16 @@ typedef enum e_tasks
 	DIE
 }					t_tasks;
 
+
+// For readable signalling.
 typedef enum e_bool
 {
 	FALSE,
 	TRUE
 }	t_bool;
 
+
+// For status of functions
 typedef enum e_status
 {
 	SUCCESS,
