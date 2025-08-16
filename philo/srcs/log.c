@@ -20,7 +20,7 @@ static void text(char *log, t_tasks task)
 
 void log_text(t_ph *philo, t_tasks task)
 {
-    static const size_t MAX_LOG_LEN = 32;
+    static size_t MAX_LOG_LEN = 32;
     char buffer[MAX_LOG_LEN];
 
     text(buffer, task);

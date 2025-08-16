@@ -49,4 +49,3 @@ void	*checker(void *arg)
 	}
 	return NULL;
 }
-
