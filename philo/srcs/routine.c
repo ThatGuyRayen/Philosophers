@@ -20,6 +20,7 @@ void	eating(t_ph *philo)
 {
 	pick_up(philo);
 	pthread_mutex_lock(&philo->lock);
+//	usleep(100); -> no help :(
 	philo->last_eaten = get_time_in_ms();
 	log_text(philo, EAT);
 	usleep(philo->data->tte);
